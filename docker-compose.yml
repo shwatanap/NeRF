@@ -1,0 +1,7 @@
+version: '3.2'
+services:
+  gpu_env:
+    build: .
+    volumes:
+      - ./srcs:/srcs
+    tty: true
